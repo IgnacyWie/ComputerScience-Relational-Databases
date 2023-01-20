@@ -1,19 +1,4 @@
 class DriverList{
-    class Driver {
-        int driverId;
-        String firstName;
-        String secondName;
-        char drivingLicence;
-        Driver previous;
-        Driver next;
-
-        Driver(int driverId, String firstName, String secondName, char drivingLicence) {
-            this.driverId = driverId;
-            this.firstName = firstName;
-            this.secondName = secondName;
-            this.drivingLicence = drivingLicence;
-        }
-    }
 
     Driver driverListHead = null;
     Driver driverListTail = null;

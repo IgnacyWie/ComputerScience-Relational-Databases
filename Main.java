@@ -21,7 +21,7 @@ public class Main {
         rentalList1.addRental(1, 1, "WZ 3456", "01/01/2020", "01/02/2020");
         rentalList1.addRental(2, 2, "WN 5678", "01/01/2020", "01/02/2020");
         rentalList1.addRental(3, 3, "SLU 3634", "01/01/2020", "01/02/2020");
-        rentalList1.printRentalsList(rentalList1.rentalsListHead, driverList1);
+        rentalList1.printRentalsList(rentalList1.rentalsListHead, driverList1, carList1);
 
         // TODO: Create menu for adding, printing, removing drivers, cars, rentals in while loop
         //menu();
@@ -75,6 +75,9 @@ public class Main {
                     break;
             }
         }
+
+        // Close the scanner
+        scanner.close();
     }
 
     public static void printMenu() {

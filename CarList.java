@@ -1,19 +1,4 @@
 class CarList{
-    class Car {
-        String model;
-        String registrationNumber;
-        int numberOfSeats;
-        String VIN;
-        Car previous;
-        Car next;
-
-        Car(String model, String registrationNumber, int numberOfSeats, String VIN) {
-            this.model = model;
-            this.registrationNumber = registrationNumber;
-            this.numberOfSeats = numberOfSeats;
-            this.VIN = VIN;
-        }
-    }
     Car carsListHead = null;
     Car carsListTail = null;
 
